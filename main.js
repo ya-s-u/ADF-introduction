@@ -1,7 +1,7 @@
 $(function(){
   // control bar
   var ControlBar = function () {
-      this.size = 10;
+      this.size = 12;
       this.height = 40;
   };
   var con = new ControlBar();
