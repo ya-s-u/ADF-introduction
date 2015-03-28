@@ -7,17 +7,21 @@
 	<meta http-equiv="Content-Style-Type" content="text/css">
 	<meta http-equiv="Content-Script-Type" content="text/javascript">
 
-	<title>Maze</title>
+	<title>Self Introduction</title>
 
 	<link rel="stylesheet" href="./style.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="./jcanvas.min.js"></script>
-	<script src="./maze.js"></script>
+  <script src="./obelisk.min.js"></script>
+	<script src="./main.js"></script>
 </head>
 <body>
-  <div id="wrapper">
-    <canvas id="canvas" width="100%" height="100%"></canvas>
+  <div class="bar">
+      <label for="ipt">Enter something here:</label>
+      <input id="ipt" value="codepen.io" type="text" placeholder="" maxlength="25">
+      <ul id="color-box"></ul>
   </div>
+  <canvas id="canvas-txt" width="200" height="24"></canvas>
+  <canvas id="canvas-demo" width="1200" height="600" style=""></canvas>
 </body>
 </html>
